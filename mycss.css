@@ -1,0 +1,168 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    cursor: pointer;
+}
+
+.section {
+    border: 5px solid black;
+    text-align: center;
+    width: 870px;
+    height: 350px;
+    margin: auto;
+
+}
+
+.outbox {
+
+    margin-top: 200px;
+}
+
+.headline {
+    height: 50px;
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(238 238 238);
+}
+
+button {
+    height: 47px;
+    display: flex;
+
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: black;
+    color: white;
+    border: none;
+    border-top: 5px solid black;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+}
+
+img {
+    width: 253px;
+    float: left;
+
+}
+
+.box2 {
+    float: left;
+}
+
+.box {
+    display: flex;
+    margin-top: 20px;
+
+}
+
+.box1 {
+    width: 50%;
+
+
+}
+
+.box3 {
+
+    width: 50%;
+    text-align: left;
+    margin-left: 20px;
+
+}
+
+.box3 ul {
+    margin-left: 20px;
+}
+
+.box3 ul li {
+    margin-top: 10px;
+}
+
+.center {
+
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.colors {
+    display: flex;
+
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+.color {
+    width: 25px;
+    height: 25px;
+    margin-left: 10px;
+
+}
+
+#red {
+    background-color: red;
+
+}
+
+#blue {
+    background-color: blue;
+
+
+}
+
+#yellow {
+    background-color: yellow;
+}
+
+#green {
+    background-color: green;
+}
+
+#brown {
+    background-color: brown;
+}
+
+#black {
+    background-color: black;
+}
+
+.flex {
+    display: flex;
+    margin-left: 20px;
+    justify-content: space-between;
+
+
+}
+
+.price {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.text {
+    font-size: 17px;
+    font-weight: lighter;
+    color: rgb(95 95 95);
+}
+
+.content {
+    margin-top: 20px;
+}
+
+#check {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+
+}
+#check:hover {
+    text-decoration: none;
+}
