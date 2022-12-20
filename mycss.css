@@ -10,12 +10,17 @@
     width: 870px;
     height: 350px;
     margin: auto;
+    
+  margin: 40px auto;
+  position: relative;
 
 }
 
 .outbox {
 
-    margin-top: 200px;
+    width: 900px;
+    margin: 40px auto;
+    position: relative;
 }
 
 .headline {
